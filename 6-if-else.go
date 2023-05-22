@@ -20,4 +20,6 @@ func main() {
 	} else {
 		fmt.Println(num, "has multiple digits")
 	}
+
+	fmt.Printf("num is only defined in the if statement")
 }

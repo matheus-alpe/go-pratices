@@ -13,7 +13,7 @@ func main() {
 	fmt.Println(d)
 
 	var e int
-	fmt.Println(e)
+	fmt.Println("e", e)
 
 	f := "apply"
 	fmt.Println(f)

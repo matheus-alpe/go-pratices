@@ -14,9 +14,13 @@ func main() {
 		fmt.Println("j:", j)
 	}
 
+	stop := false
 	for {
 		fmt.Println("Loop")
-		break
+		if stop {
+			break
+		}
+		stop = true
 	}
 
 	for n := 0; n <= 5; n++ {

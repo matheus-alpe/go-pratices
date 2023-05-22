@@ -3,8 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	s := make([]string, 3)
-	fmt.Println("emp:", s)
+	var s []string
+	fmt.Println("uninit:", s, s == nil, len(s) == 0)
+
+	s = make([]string, 3)
+	fmt.Println("emp:", s, "len:", len(s), "cap:", cap(s))
 
 	s[0] = "a"
 	s[1] = "b"
@@ -35,7 +38,7 @@ func main() {
 	fmt.Println("dcl:", t)
 
 	twoD := make([][]int, 3)
-	for i := 0; i < 3; i++ {
+	for i := 0; i < len(twoD); i++ {
 		innerLen := i + 1
 		twoD[i] = make([]int, innerLen)
 

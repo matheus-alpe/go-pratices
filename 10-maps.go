@@ -3,6 +3,13 @@ package main
 import "fmt"
 
 func main() {
+	ints := map[string]int64{
+		"first":  23,
+		"second": 12,
+	}
+
+	fmt.Println(ints)
+
 	m := make(map[string]int)
 	fmt.Println("m", m)
 

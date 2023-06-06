@@ -1,6 +1,9 @@
 package tour
 
+import "fmt"
+
 func init() {
-	Hello("Matheus")
+	fmt.Println(Hello("Matheus"))
 	PrintRandNumber()
+	fmt.Println("secret", SecretValue)
 }

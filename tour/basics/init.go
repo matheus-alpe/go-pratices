@@ -19,4 +19,7 @@ func init() {
 	fmt.Println(NeedInt(Small))
 	fmt.Println(NeedFloat(Small))
 	fmt.Println(NeedFloat(Big))
+	ForExample()
+	ForContinuedExample()
+	ForWhileExample()
 }

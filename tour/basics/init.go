@@ -1,6 +1,8 @@
-package tour
+package basics
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func init() {
 	fmt.Println(Hello("Matheus"))
@@ -10,4 +12,11 @@ func init() {
 	fmt.Println(Swap("Matheus", "Thiago"))
 	fmt.Println(Split(20))
 	PrintVars()
+	PrintBasicTypes()
+	PrintZeroValues()
+	PrintTypeConversion()
+	PrintTypeInference()
+	fmt.Println(NeedInt(Small))
+	fmt.Println(NeedFloat(Small))
+	fmt.Println(NeedFloat(Big))
 }

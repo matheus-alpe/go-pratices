@@ -1,7 +1,8 @@
 package main
 
 import (
-	_ "go-pratices/tour"
+	_ "go-pratices/tour/basics"
 )
 
-func main() {}
+func main() {
+}

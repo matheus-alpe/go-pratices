@@ -1,4 +1,4 @@
-package tour
+package basics
 
 // (x, y int) = (x int, y int)
 func Add(x, y int) int {

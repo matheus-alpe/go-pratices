@@ -23,4 +23,5 @@ func init() {
 	ForContinuedExample()
 	ForWhileExample()
 	IfExample()
+	PrintExerciseLoopSqrt()
 }

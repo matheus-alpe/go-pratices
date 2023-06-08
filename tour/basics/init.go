@@ -22,4 +22,5 @@ func init() {
 	ForExample()
 	ForContinuedExample()
 	ForWhileExample()
+	IfExample()
 }

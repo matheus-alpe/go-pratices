@@ -26,4 +26,5 @@ func init() {
 	PrintExerciseLoopSqrt()
 	SwitchExample()
 	DeferExample()
+	PointersExample()
 }

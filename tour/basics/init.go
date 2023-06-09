@@ -24,4 +24,6 @@ func init() {
 	ForWhileExample()
 	IfExample()
 	PrintExerciseLoopSqrt()
+	SwitchExample()
+	DeferExample()
 }

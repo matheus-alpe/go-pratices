@@ -27,4 +27,5 @@ func init() {
 	SwitchExample()
 	DeferExample()
 	PointersExample()
+	StructExample()
 }

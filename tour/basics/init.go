@@ -28,4 +28,5 @@ func init() {
 	DeferExample()
 	PointersExample()
 	StructExample()
+	ArraysExample()
 }

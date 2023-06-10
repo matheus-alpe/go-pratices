@@ -16,6 +16,8 @@ func LoopFindSqrt(x float64) float64 {
 }
 
 func PrintExerciseLoopSqrt() {
+	fmt.Println("\nExercise 01: Loop Sqrt")
+
 	fmt.Println(LoopFindSqrt(234))
 	fmt.Println(math.Sqrt(234))
 }

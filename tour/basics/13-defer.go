@@ -44,6 +44,7 @@ func g(i int) {
 }
 
 func DeferExample() {
+	fmt.Println("\nDefer:")
 	fmt.Println("a")
 	defer fmt.Println("b")
 	deferPrint()

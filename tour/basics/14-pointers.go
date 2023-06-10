@@ -3,6 +3,8 @@ package basics
 import "fmt"
 
 func PointersExample() {
+	fmt.Println("\nPointers:")
+
 	i, j := 42, 2701
 
 	p := &i

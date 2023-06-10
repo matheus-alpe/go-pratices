@@ -14,6 +14,8 @@ var (
 )
 
 func StructExample() {
+	fmt.Println("\nStructs:")
+
 	v := Vertex{1, 2}
 	fmt.Println(v)
 	v.x = 4

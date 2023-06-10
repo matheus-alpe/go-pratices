@@ -23,6 +23,8 @@ func pow(x, n, lim float64) float64 {
 }
 
 func IfExample() {
+	fmt.Println("\nIf Statements:")
+
 	fmt.Println(sqrt(2), sqrt(-4), sqrt(-9))
 	fmt.Println(pow(3, 2, 10), pow(3, 3, 20))
 }

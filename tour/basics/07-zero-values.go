@@ -2,7 +2,9 @@ package basics
 
 import "fmt"
 
-func PrintZeroValues() {
+func PrintZeroValuesExample() {
+	fmt.Println("\nZero Values:")
+
 	var i int
 	var f float64
 	var b bool

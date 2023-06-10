@@ -50,6 +50,7 @@ func switchWithoutCondition() {
 }
 
 func SwitchExample() {
+	fmt.Println("\nSwitch:")
 	showOS()
 	isSaturday()
 	switchWithoutCondition()

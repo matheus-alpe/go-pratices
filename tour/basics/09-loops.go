@@ -2,7 +2,7 @@ package basics
 
 import "fmt"
 
-func ForExample() {
+func forExample() {
 	sum := 0
 
 	for i := 0; i < 10; i++ {
@@ -12,7 +12,7 @@ func ForExample() {
 	fmt.Println(sum)
 }
 
-func ForContinuedExample() {
+func forContinuedExample() {
 	sum := 1
 
 	for sum < 100 {
@@ -22,7 +22,7 @@ func ForContinuedExample() {
 	fmt.Println(sum)
 }
 
-func ForWhileExample() {
+func forWhileExample() {
 	sum := 1
 
 	for sum < 200 {
@@ -35,3 +35,11 @@ func ForWhileExample() {
 /* Loop forever
 for {} // this loop will spin, using 100% CPU
 */
+
+func PrintForExemple() {
+	fmt.Println("\nFor:")
+
+	forExample()
+	forContinuedExample()
+	forWhileExample()
+}

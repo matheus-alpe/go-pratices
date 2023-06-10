@@ -7,9 +7,9 @@ var j, k int = 1, 2
 
 // message := "message" // error: needs to be var message = "message"
 
-const Pi = 3.14
+const pi = 3.14
 
-func PrintVars() {
+func printVars() {
 	var i int
 	fmt.Println(i, c, python, java)
 
@@ -21,7 +21,7 @@ func PrintVars() {
 
 	const World = "世界"
 	fmt.Println("Hello", World)
-	fmt.Println("Happy", Pi, "Day")
+	fmt.Println("Happy", pi, "Day")
 
 	const Truth = true
 	fmt.Println("Go rules?", Truth)
@@ -32,10 +32,19 @@ const (
 	Small = Big >> 99
 )
 
-func NeedInt(x int) int {
+func needInt(x int) int {
 	return x*10 + 1
 }
 
-func NeedFloat(x float64) float64 {
+func needFloat(x float64) float64 {
 	return x * 0.1
+}
+
+func PrintVarsExample() {
+	fmt.Println("\nVars & Constants:")
+
+	printVars()
+	fmt.Println(needInt(Small))
+	fmt.Println(needFloat(Small))
+	fmt.Println(needFloat(Big))
 }

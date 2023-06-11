@@ -52,7 +52,7 @@ func exampleMap2() {
 	fmt.Println("The value:", v, "Present?", ok)
 }
 
-func PrintMapExample() {
+func MapExample() {
 	fmt.Println("\nMap:")
 
 	exampleMap1()

@@ -23,5 +23,9 @@ func init() {
 	ArraysExample()
 	SliceExample()
 	PrintExerciseSlices()
-	PrintMapExample()
+	MapExample()
+	PrintExerciseMaps()
+	FunctionValuesExample()
+	FunctionClosuresExample()
+	PrintExerciseClosure()
 }

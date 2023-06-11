@@ -22,4 +22,5 @@ func init() {
 	StructExample()
 	ArraysExample()
 	SliceExample()
+	PrintExerciseSlices()
 }

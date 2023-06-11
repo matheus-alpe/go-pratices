@@ -181,7 +181,7 @@ func example11() {
 
 	fmt.Println(pow)
 	for _, value := range pow {
-		fmt.Printf("%d", value)
+		fmt.Printf("%d\n", value)
 	}
 }
 

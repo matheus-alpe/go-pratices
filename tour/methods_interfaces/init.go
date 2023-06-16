@@ -7,4 +7,6 @@ func init() {
 
 	MethodsExample()
 	MethodsContinuedExample()
+	PointersReceiversExample()
+	PointersFunctionsExample()
 }

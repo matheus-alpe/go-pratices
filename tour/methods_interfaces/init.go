@@ -9,4 +9,9 @@ func init() {
 	MethodsContinuedExample()
 	PointersReceiversExample()
 	PointersFunctionsExample()
+	InterfacesExample()
+	InterfacesImplicitExample()
+	InterfacesNilExample()
+	InterfacesEmptyExample()
+	TypeAssertionExample()
 }

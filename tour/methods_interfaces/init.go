@@ -14,4 +14,5 @@ func init() {
 	InterfacesNilExample()
 	InterfacesEmptyExample()
 	TypeAssertionExample()
+	TypeSwitchesExample()
 }

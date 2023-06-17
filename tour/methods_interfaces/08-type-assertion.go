@@ -16,7 +16,7 @@ func TypeAssertionExample() {
 	f, ok := i.(float64)
 	fmt.Println(f, ok)
 
-	// panic
+	// will panic
 	// f = i.(float64)
 	// fmt.Println(f)
 }

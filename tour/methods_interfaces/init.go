@@ -15,4 +15,6 @@ func init() {
 	InterfacesEmptyExample()
 	TypeAssertionExample()
 	TypeSwitchesExample()
+	StringersExample()
+	ExerciseStringersExample()
 }

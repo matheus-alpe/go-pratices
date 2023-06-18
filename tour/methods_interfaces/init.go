@@ -19,4 +19,6 @@ func init() {
 	ExerciseStringersExample()
 	ErrosExample()
 	ExerciseErrorsExample()
+	ReadersExample()
+	ExerciseReadersExample()
 }

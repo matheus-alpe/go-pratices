@@ -1,0 +1,9 @@
+package generics
+
+import "fmt"
+
+func init() {
+	fmt.Println("\nGenerics:")
+
+	TypeParametersExample()
+}

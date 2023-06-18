@@ -22,4 +22,6 @@ func init() {
 	ReadersExample()
 	ExerciseReadersExample()
 	ExerciseRot13ReaderExample()
+	ImagesExample()
+	ExerciseImagesExample()
 }

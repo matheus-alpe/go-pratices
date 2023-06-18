@@ -17,4 +17,6 @@ func init() {
 	TypeSwitchesExample()
 	StringersExample()
 	ExerciseStringersExample()
+	ErrosExample()
+	ExerciseErrorsExample()
 }

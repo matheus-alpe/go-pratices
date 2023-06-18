@@ -21,4 +21,5 @@ func init() {
 	ExerciseErrorsExample()
 	ReadersExample()
 	ExerciseReadersExample()
+	ExerciseRot13ReaderExample()
 }

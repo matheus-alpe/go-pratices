@@ -6,4 +6,5 @@ func init() {
 	fmt.Println("\nGenerics:")
 
 	TypeParametersExample()
+	GenericTypesExample()
 }

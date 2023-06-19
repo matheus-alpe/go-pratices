@@ -4,7 +4,7 @@ import (
 	_ "go-pratices/tour/01-basics"
 	_ "go-pratices/tour/02-methods_interfaces"
 	_ "go-pratices/tour/03-generics"
+	_ "go-pratices/tour/04-concurrency"
 )
 
-func main() {
-}
+func main() {}

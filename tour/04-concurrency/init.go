@@ -6,4 +6,5 @@ func init() {
 	fmt.Println("\nConcurrency:")
 
 	GoRoutinesExample()
+	ChannelsExample()
 }

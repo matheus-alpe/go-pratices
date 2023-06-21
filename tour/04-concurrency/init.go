@@ -7,4 +7,5 @@ func init() {
 
 	GoRoutinesExample()
 	ChannelsExample()
+	BufferedChannelsExample()
 }

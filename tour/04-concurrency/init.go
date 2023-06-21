@@ -8,4 +8,5 @@ func init() {
 	GoRoutinesExample()
 	ChannelsExample()
 	BufferedChannelsExample()
+	RangeAndCloseChannelsExample()
 }

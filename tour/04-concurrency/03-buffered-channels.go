@@ -15,7 +15,7 @@ func BufferedChannelsExample() {
 		fmt.Println("start goroutine")
 		ch <- 1
 
-		time.Sleep(2 * time.Second)
+		time.Sleep(2 * time.Millisecond)
 
 		ch <- 2
 		fmt.Println("end goroutine")
@@ -26,6 +26,5 @@ func BufferedChannelsExample() {
 	// will block this print until finalizes the sleep
 	fmt.Println(<-ch)
 	fmt.Println("msg 2")
-
 	fmt.Println("execution ended")
 }

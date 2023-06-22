@@ -9,4 +9,6 @@ func init() {
 	ChannelsExample()
 	BufferedChannelsExample()
 	RangeAndCloseChannelsExample()
+	SelectChannelsExample()
+	SelectDefaultExample()
 }

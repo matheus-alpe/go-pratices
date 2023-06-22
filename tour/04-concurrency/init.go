@@ -11,4 +11,5 @@ func init() {
 	RangeAndCloseChannelsExample()
 	SelectChannelsExample()
 	SelectDefaultExample()
+	ExerciseEquivalentBinaryTreesExample()
 }

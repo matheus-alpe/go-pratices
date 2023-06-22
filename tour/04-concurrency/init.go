@@ -12,4 +12,6 @@ func init() {
 	SelectChannelsExample()
 	SelectDefaultExample()
 	ExerciseEquivalentBinaryTreesExample()
+	MutexExample()
+	ExerciseWebCrawlerExample()
 }

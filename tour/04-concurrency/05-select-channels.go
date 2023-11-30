@@ -4,7 +4,9 @@ import (
 	"fmt"
 )
 
-func fibonacciSelect(c, quit chan int) {
+type QuitChannel chan struct{}
+
+func fibonacciSelect(c chan int, quit QuitChannel) {
 	x, y := 0, 1
 
 	for {
@@ -22,13 +24,13 @@ func SelectChannelsExample() {
 	fmt.Println("\nSelect Channels:")
 
 	c := make(chan int)
-	quit := make(chan int)
+	quit := make(QuitChannel)
 
 	go func() {
 		for i := 0; i < 10; i++ {
 			fmt.Println(<-c)
 		}
-		quit <- 0
+		close(quit)
 	}()
 
 	fibonacciSelect(c, quit)

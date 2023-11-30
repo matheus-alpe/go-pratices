@@ -7,6 +7,7 @@ import (
 )
 
 type SafeCounter struct {
+	wg sync.WaitGroup
 	mu sync.Mutex
 	v  map[string]int
 }
@@ -15,6 +16,7 @@ func (c *SafeCounter) Inc(key string) {
 	c.mu.Lock()
 	c.v[key]++
 	c.mu.Unlock()
+	c.wg.Done()
 }
 
 func (c *SafeCounter) Value(key string) int {
@@ -25,12 +27,14 @@ func (c *SafeCounter) Value(key string) int {
 
 func MutexExample() {
 	fmt.Println("\nMutex:")
+	start := time.Now()
 
 	c := SafeCounter{v: make(map[string]int)}
-	for i := 0; i < 1000; i++ {
+	for i := 0; i < 1e6; i++ {
+		c.wg.Add(1)
 		go c.Inc("somekey")
 	}
+	c.wg.Wait()
 
-	time.Sleep(time.Second)
-	fmt.Println(c.Value("somekey"))
+	fmt.Println(c.Value("somekey"), time.Since(start))
 }

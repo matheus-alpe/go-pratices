@@ -13,6 +13,7 @@ import (
 	_ "go-pratices/tour/02-methods_interfaces"
 	_ "go-pratices/tour/03-generics"
 	_ "go-pratices/tour/04-concurrency"
+	_ "go-pratices/tour/05-tags"
 )
 
 func main() {}

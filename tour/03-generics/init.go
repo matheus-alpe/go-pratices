@@ -1,3 +1,5 @@
+// +build generics
+
 package generics
 
 import "fmt"

@@ -1,3 +1,5 @@
+// +build methodsinterfaces
+
 package methodsinterfaces
 
 import "fmt"

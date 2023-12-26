@@ -1,3 +1,5 @@
+// +build basics
+
 package basics
 
 import (
